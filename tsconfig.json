@@ -1,15 +1,15 @@
 {
   "compilerOptions": {
-    "target": "es2016",                                  
-    "lib": ["es6"],                                      
-    "module": "commonjs",                               
-    "rootDir": "src",                                    
-    "baseUrl": "src",                                 
+    "target": "es2016",
+    "lib": ["es6"],
+    "module": "commonjs",
+    "rootDir": "./src",
+    "baseUrl": "src",
     "paths": {
-      "@/*":["*"]
-    },             
+      "@/*": ["*"]
+    },
     "resolveJsonModule": true,
-    "allowJs": true,                              
+    "allowJs": true,
     "outDir": "build",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -17,7 +17,6 @@
     "noImplicitAny": true,
     "skipLibCheck": true
   },
-  "exclude": [
-    "./node_modules"
-  ]
+  "include": ["./src/**/*"],
+  "exclude": ["./node_modules"]
 }
