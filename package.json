@@ -1,8 +1,9 @@
 {
   "name": "@a.abdelfatah/nodejs-ts-starter",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "this application just for applaying the clean arch , best practises ,  code styles and more  ",
   "main": "index.js",
+  "bin": "./bin/cli.js",
   "author": "EngAhmedMahmoud",
   "license": "MIT",
   "scripts": {
