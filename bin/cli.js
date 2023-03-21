@@ -14,16 +14,16 @@ const runCommand = (command) => {
 const repoName = process.argv[2];
 const checkoutCommand = `git clone --depth 1 https://github.com/EngAhmedMahmoud/nodejs-ts-starter ${repoName}`;
 const installDependancies = `cd ${repoName} && yarn install`;
-console.log(`Cloning the repository with name ${repoName}`);
+console.log(`🏗️  👷👷 Cloning the repository with name ${repoName} 👷👷 🏗️`);
 const checkout = runCommand(checkoutCommand);
 // eslint-disable-next-line no-undef
 if (!checkout) process.exit(-1);
-console.log(`Installing the dependancies`);
+console.log(`🔨🔨🔨 Installing the dependancies 🔨🔨🔨`);
 const installPackages = runCommand(installDependancies);
 // eslint-disable-next-line no-undef
 if (!installPackages) process.exit(-1);
 console.log(
-  `Congratulation! You are ready just follow the following command to start
+  `✅✅✅ Congratulation!! 🚀🚀🚀🚀🚀 You are ready just follow the following command to start \n
   cd ${repoName} && yarn start
   `
 );
